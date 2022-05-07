@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-size: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    padding: 1.12rem;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav a{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 1.83rem;
+    color: #FFF2E7;
+}
+
+.nav a:hover{
+    color: #e6b48c;
+}
+
+.container-main{
+    border-top: solid 0.025rem #FFF2E7;
+    margin-bottom: 3rem;
+}
+
+.section-main-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-section-main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.div-section-main-left h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    color:  #FFF2E7;
+    line-height: 4.96rem;
+}
+
+.div-section-main-left h2{
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.44rem;
+}
+
+.div-section-main-left button{
+    background-color: #ECD6C4;
+    border-radius: 1.25rem;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 11.56rem;
+    height: 4.18rem;
+    font-family: 'Sarala', sans-serif;
+    color: #2F2325;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.div-section-main-left button:hover{
+    background-color: #e6b48c;
+}
+
+.section-main-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: #ECD6C4;
+    font-weight: 400;
+}
+
+.section-main-bottom h1{
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+}
+
+.section-main-bottom h3{
+    border-top: solid 0.025rem #FFF2E7;
+    padding-top: 4.62rem;
+}
+
+.section-main-bottom p{
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.125rem 
+}
+
+.footer{
+    border-top: solid 0.025rem #FFF2E7;
+}
+.footer img{
+    padding: 1.93rem 0 2.81rem 0;
+    display: block;
+    margin: 0 auto;
+}
+
